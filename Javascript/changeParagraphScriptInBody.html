@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	java script in body
+    </head>
+    <body>
+	<h1>Javascript in body</h1>
+	<p id="demo">A paragraph.</p>
+	<button type="button" onclick="changeParagraph()">Change it</button>
+
+	<script>
+	    function changeParagraph() {
+		var x = document.getElementById("demo")
+		x.innerHTML = "The content of this paragraph was changed."
+	    }
+	</script>
+
+
+    </body>
+</html>
